@@ -1,0 +1,59 @@
+.body{
+    display: block;
+    margin:50px auto;
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+}  
+.title{
+    color: #121212;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pic{
+    display: block;
+    width: 380px;
+    margin: 0 auto;
+    border:  3px solid black ;
+}
+.email{
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 8px 20px;
+    border-width: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: 7px auto 0 auto;
+    background: black;
+    color: white;
+    padding: 10px 75px;
+    font-weight: bold;
+}
+.text{
+    display: block;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text::first-letter{
+    text-transform: capitalize;
+}
+.link:link,
+.link:visited{
+    color: black;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgb(134, 128, 31);
+    font-weight: bold;
+}
+.link:active{
+    color: rgb(192, 221, 27);
+    font-weight: bold;
+}
